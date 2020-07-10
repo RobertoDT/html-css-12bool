@@ -3,3 +3,22 @@
   margin: 0;
   padding: 0;
 }
+
+.container, [class*="col-"] {
+  border: 1px solid black;
+  height: 200px;
+  background-color: pink;
+  position: relative;
+}
+
+p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spec > div{
+  
+
+}
